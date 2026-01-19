@@ -1,4 +1,4 @@
-package com.example.travelslog.boundedContext.user.entity;
+package org.travelslog.backend.boundedcontext.user.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
