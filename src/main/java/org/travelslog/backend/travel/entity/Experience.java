@@ -11,6 +11,6 @@ public class Experience {
     // 제목
     // 장소 locationNote nullable
     // 행동 ActivityNote non-nullable
-    // 시간을 orderIndex로 할지, startTime, endTime으로 할지 고민
+    // 시간은 orderIndex와 아침/낮/저녁/밤 태그로 구분
 }
 
