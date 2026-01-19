@@ -12,7 +12,9 @@ public class Travel {
     private final String description;
     private final String countryCode; // ISO 3166-1 alpha-2
     private final byte cityCode;    // ISO 3166-2 numeric
-    //유저 FK
+    // 유저 FK
+    // 누구와 가는지 person
+    // 기간
 
 
 
