@@ -1,4 +1,4 @@
-package org.travelslog.backend.boundedcontext.travel.entity;
+package org.travelslog.backend.travel.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,4 +20,3 @@ public class Travel {
         this(++lastId, title, description, null, (byte)0);
     }
 }
-
