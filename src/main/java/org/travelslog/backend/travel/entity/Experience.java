@@ -8,9 +8,12 @@ import lombok.Data;
 public class Experience {
     // travel FK
     // 경험 PK
+
     // 제목
     // 장소 locationNote nullable
     // 행동 ActivityNote non-nullable
-    // 시간은 orderIndex와 아침/낮/저녁/밤 태그로 구분
-}
 
+    // dayIndex (여행 중 몇 번째 날인지, 1부터 시작)
+    // timeSlot (morning, afternoon, evening, night) nullable : enum 데이터클래스
+    // orderLndex (같은 dayIndex, timeSlot 내에서의 순서)
+}
